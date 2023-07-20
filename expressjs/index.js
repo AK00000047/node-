@@ -18,7 +18,7 @@ const apple=fs.readFileSync('apple.html','utf-8');
 server.get('/insta',(req,res)=>{
    res.send(insta);
 });
-server.get('/insta/products',(req,res)=>{
+server.get('/insta/profile',(req,res)=>{
     res.send(apple);
 })
 server.listen(399);
