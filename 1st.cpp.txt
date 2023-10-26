@@ -6,7 +6,7 @@
 #include<limits.h>
 using namespace std;
 class graph{
-public:
+public: 
   map<int,vector<pair<int,int>>>mp;
 void add(int u,int v,int direction,int weight){
   mp[u].push_back({v,weight});
