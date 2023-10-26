@@ -12,7 +12,7 @@ void add(int u,int v,int direction,int weight){
   mp[u].push_back({v,weight});
   if(direction==0){
     mp[v].push_back({u,weight});
-  }
+  } 
 }
  void print(){
    for(auto x:mp){
